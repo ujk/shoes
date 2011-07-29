@@ -119,25 +119,27 @@ Boş bir text dosya şöyle oluşturulabilir:
  end
 }}}
 
-Bu çalışmayı `welcome.rb` adıyla kaydedin. (Türkçe karakter sorun çıkardığı için, dosyanın formatı )
+Bu çalışmayı `welcome.rb` adıyla kaydedin. Türkçe karakter sorun çıkardığı için, 
+dosyanın formatı UTF-8 olmalıdır. Notepad++ benzeri bir text editörü daha kullanışlı olabilir.
 
-==== Step 3: Run It! Go Shoes! ====
+==== Adım 3: Çalıştırın! Bas Gaza Shoes! ====
 
-To run your program:
+Programınızı çalıştırmak için:
 
- * On '''Mac OS X''', visit your '''Applications''' folder again.  This time, double-click the '''Shoes''' icon in that folder.  You should see the red shoes icon appear in the dock.  Drag your `welcome.rb` from the desktop on to that dock icon. !man-run-osx.png!
- * On '''Windows''', get to the Start menu.  Go into '''All Programs''', then '''Shoes''', then '''Shoes'''.  A file selector box should come up.  Browse to your desktop and select `welcome.rb`.  Click '''OK''' and you're on your way. !man-run-xp.png! !man-run-vista.png!
- * On '''Linux''', run Shoes just like you did in step one.  You should see a file selector box.  Browse to your desktop, select `welcome.rb` and hit '''OK'''.
+ * '''Mac OS X''', tekrar '''Applications''' klasörüne gidin. Bu sefer klasördeki '''Shoes''' ikonuna çift tıklayın. Dockta kırmızı Shoes ikonu belirecektir. `welcome.rb` dosyanızı masaüstünden bu ikona sürükleyip bırakın. !man-run-osx.png!
+ * '''Windows''', Başlat menüsüne gidin. '''All Programs''', sonra '''Shoes''', sonra '''Shoes''' tıklayın. Bir dosya seçici ekranı gelecektir. Masaüstüne gidip `welcome.rb` dosyasını seçin.  '''OK''' tuşunu tıklayın ve çalıştırın. !man-run-xp.png! !man-run-vista.png!
+ * '''Linux''', 1. adımda ayarladığınız Shoes programını çalıştırın.  Bir dosya seçici ekranı gelecektir. Masaüstüne gidip `welcome.rb` dosyasını seçin.  '''OK''' tuşunu tıklayın ve çalıştırın.
 
-So, not much of a program yet.  But it's something!  You've got the knack of it, at least!
+Evet, daha daha tam bir program değil. Ama en azından bişeyler kapmaya başladınız!
 
-==== What Can You Make With Shoes? ====
+==== Shoes ile Neler Yapabiliriz? ====
 
-Well, you can make windowing applications. But Shoes is inspired by the web, so
-applications tend to use images and text layout rather than a lot of widgets.
-For example, Shoes doesn't come with tabbed controls or toolbars. Shoes is a
-''tiny'' toolkit, remember?
+Pekala, masaüstü uygulama yapabilirsiniz. Fakat Shoes web'ten esinlenmiştir, 
+bu yüzden uygulamalar bir sürü widget kullanmak yeerine resim ve yazıları yayınlamaya 
+eğilimlidir. Örneğin Shoes'da tab kontrolleri ve toolbar yoktur. Hatırladınız mı,  
+Shoes mini bir grafik araç takımı?
 
+Halihazırda Shoes butonlar ve edit boxlar gibi birkaç widget sahibidir.
 Still, Shoes does have a few widgets like buttons and edit boxes. And many
 missing elements (like tabbed controls or toolbars) can be simulated with
 images.
