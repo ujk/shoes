@@ -77,49 +77,49 @@ sistem kontrolleri (Edit satırları, text kutuları gibi) işletim sisteminin t
 aynı görüntüyü kullanır. Shoes bu kontrollerin boyutlarını sizin istediğiniz 
 ölçülerde tutmaya çalışır, sadece görüntüleri sisteme göre değişir.
 
-== Installing Shoes ==
+== Shoes Kurulumu ==
 
-Okay, on to installing Shoes. I'm sure you're wondering: do I need to install
-Ruby? Do I need to unzip anything? What commands do I need to type?
+Tamam, haydi Shoes kuralım. Eminim merak ediyorsunuz: Ruby kurmak zorundamıyım? 
+Sıkıştırılmış dosyaları mı açacağım? Hangi komutları yazmam gerekiyor?
 
-Nope. You don't need Ruby. You don't need WinZip. Nothing to type.
+Hiçbiri. Ruby'ye ihtiyacınız yok. Winzip gerekmiyor. Yazılacak ta bişey yok.
 
-On most systems, starting Shoes is just a matter of running the installer and
-clicking the Shoes icon.  Shoes comes with everything built in. We'll talk
-through all the steps, though, just to be clear about it.
+Birçok sistem için Shoes kurulumunu çalıştırmak ve kısayolunu tıklamak yeterli. 
+Shoes içinde tüm gerekli bileşenleri ile birlikte gelir. Açık olması için ,
+tüm adımları tek tek anlatacağız.
 
-==== Step 1: Installing Shoes ====
+==== Adım 1: Shoes Kurulumu ====
 
-You'll want to visit [[http://shoesrb.com/ the site of Shoes]] to download
-the Shoes installer.  Usually, you'll just want one of the installers on the
-downloads page of the site. !man-builds1.png!
+Shoes kurulum dosyası için [[http://shoesrb.com/ the site of Shoes]] adresini ziyaret 
+edeceksiniz. Sitedeki indirme seçeneklerinden sisteminiz için olanı seçeceksiniz. 
+!man-builds1.png!
 
-Here's how to run the installer:
+Kurulumu şöyle çalıştıracaksınız:
 
- * On '''Mac OS X''', you'll have a file ending with '''.dmg'''.  Double-click this file and a window should appear with a '''Shoes''' icon and an '''Applications''' folder.  Following the arrow, drag the Shoes icon into the '''Applications''' folder. !man-intro-dmg.png!
- * On '''Windows''', you'll download a '''.exe''' file.  Double-click this file and follow the instructions. !man-intro-exe.png!
- * On '''Linux''', you'll need to compile your own Shoes. Check out [[https://github.com/shoes/shoes/wiki/Building-Shoes-on-Linux this page]] for more. We want to provide packages eventually!
+ * '''Mac OS X''' 'te, '''.dmg''' ile biten bir dosyanız olacak. Bu dosyaya çift tıklayın, içinde '''Shoes''' ikonu ve bir '''Applications''' klasörü olan pencere açılacaktır. Shoes ikonunu '''Aplications''' klasörü içine sürükleyip bırakın. !man-intro-dmg.png!
+ * '''Windows''' 'ta, bir '''.exe''' uzantılı dosya indireceksiniz. Bu dosyaya çift tıklayın ve yönlendirmeleri takip edin. !man-intro-exe.png!
+ * '''Linux''' 'ta, kendi Shoes'unuzu compile etmeniz gerekecek. [[https://github.com/shoes/shoes/wiki/Building-Shoes-on-Linux this page]] adresinde yönergeler var. İlerde hazır paketler olması için çalışıyoruz!
 
-==== Step 2: Start a New Text File ====
+==== Adım 2: Yeni bir Text Dosya Üretin ====
 
-Shoes programs are just plain text files ending with a '''.rb''' extension.
+Shoes programları '''.rb''' uzantılı düz yazı dosyalarıdır.
 
-Here are a few ways to create a blank text file:
+Boş bir text dosya şöyle oluşturulabilir:
 
- * On '''Mac OS X''', visit your '''Applications''' folder and double-click on the '''TextEdit''' app.  A blank editor window should come up.  Now, go to the '''Format''' menu and select the '''Make Plain Text''' option.  Okay, you're all set! !man-editor-osx.png!
- * On '''Windows''', go to the Start menu.  Select '''All Programs''', then '''Accessories''', then '''Notepad'''. !man-editor-notepad.png!
- * On '''Linux''', most distros come with '''gedit'''.  You might try running that.  Or, if your distro is KDE-based, run '''kate'''.
+ * '''Mac OS X''', '''Applications''' klasörünüze gidin ve '''TextEdit''' ugulamasını çift tıklatın. Boş bir sayfa önünüze gelecektir. Şimdi '''Format''' menüsünden '''Make Plain Text''' seçeneğini seçin. Tamam herşey, ayarladınız! !man-editor-osx.png!
+ * '''Windows''', Başlat menüsüne gidin. '''Tüm Programlar''' sonrasında '''Donatılar''' ve '''Not Defteri''' uygulamasını seçin. !man-editor-notepad.png!
+ * '''Linux''', birçok dağıtım '''gedit''' uygulamasıyla gelir. Bunu kullanabilirsiniz. Ya da dağıtımınız KDE-temelli ise '''kate''' uygulamasını kullanabilirsiniz.
 
-Now, in your blank window, type in the following:
+Şimdi, boş sayfanıza şunları yazın:
 
 {{{
  Shoes.app do
    background "#DFA"
-   para "Welcome to Shoes"
+   para "Shoes'a Hoşgeldiniz"
  end
 }}}
 
-Save to your desktop as `welcome.rb`.
+Bu çalışmayı `welcome.rb` adıyla kaydedin. (Türkçe karakter sorun çıkardığı için, dosyanın formatı )
 
 ==== Step 3: Run It! Go Shoes! ====
 
